@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  font-family: "Gowun Dodum", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url(wallpaper.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+button {
+  background-color: white;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 100px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+}
+ul,
+li {
+  display: inline;
+  padding-left: 10px;
+  margin-left: 40px;
+  font-size: larger;
+}
+.body-1 {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+.content {
+  font-size: larger;
+}
+table {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: peachpuff;
+}
+td,
+th {
+  padding: 20px;
+}
+th {
+  font-weight: bold;
+}
+tr {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+tr:hover {
+  background-color: white;
+  color: #e7543b;
+}
+.Categories {
+  margin-top: 5%;
+}
+.product {
+  margin-top: 5%;
+}
+.box-1 {
+  background-color: tomato;
+  display: inline-block;
+  height: 320px;
+  margin-left: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart-1 {
+  height: 50px;
+  width: 100px;
+  background-color: #972d15;
+  border-top-left-radius: 100px;
+  position: absolute;
+  left: 312px;
+}
+.cart-2 {
+  height: 50px;
+  width: 100px;
+  background-color: #972d15;
+  border-top-left-radius: 100px;
+  position: absolute;
+  left: 657px;
+}
+.cart-3 {
+  height: 50px;
+  width: 100px;
+  background-color: #972d15;
+  border-top-left-radius: 100px;
+  position: absolute;
+  left: 1002px;
+}
+
+.cart-4 {
+  height: 50px;
+  width: 100px;
+  background-color: #972d15;
+  border-top-left-radius: 100px;
+  position: absolute;
+  left: 1346px;
+}
+.cart-but {
+  padding: 0%;
+  border-style: none;
+  border-radius: none;
+  width: 0%;
+}
+
+.cart-1:hover {
+  background-color: goldenrod;
+}
+
+.cart-2:hover {
+  background-color: goldenrod;
+}
+.cart-3:hover {
+  background-color: goldenrod;
+}
+.cart-4:hover {
+  background-color: goldenrod;
+}
+
+.load {
+  margin-top: 2%;
+}
+
+.body-3 {
+  margin-top: 100px;
+  margin-left: 40px;
+
+  display: flex;
+  align-items: center;
+}
+.about {
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.footer {
+  background-color: #972d15;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.details {
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 10px;
+}
+.address {
+  display: inline-block;
+  width: 150px;
+  margin-left: 100px;
+}
+.hours {
+  margin-bottom: 54px;
+  margin-left: 100px;
+}
+.phone {
+  margin-bottom: 73px;
+  margin-left: 100px;
+}
+.follow {
+  margin-bottom: 45px;
+  margin-left: 100px;
+}
